@@ -68,27 +68,30 @@ function HomePage() {
                                 </Card>
                             </Row>
                             <Row>
-                                <Card className='cclr3'>
-                                    <Card.Body>
-                                        <Card.Text>
-                                            Instagram: <a href='https://www.instagram.com/resetmassageofrichmondllc/'>@resetmassageofrichmondllc</a>
-                                            <br/><br/>
-                                            My name is Annelise Fa Non and I am a dedicated and knowledgeable massage therapist with over ten years of experience. I obtained my certification from Fortis College in Richmond, Virginia in 2014 and my license through the board of nursing the same year, since then I have become a highly requested practitioner in Richmond and surrounding areas. I specialize in a range of therapeutic massage techniques including Swedish, deep tissue, lymphatic drainage, trigger point, hot stone therapy, cupping, sports massage, energy techniques, myofascial release, CBD treatment, assisted stretching, acupressure, and aromatherapy.
-                                            <br/><br/>
-                                            My purpose in this field is to provide customizable care to reset each client, personalizing my treatments to address specific concerns to promote healing and relaxation. With my knowledge of anatomy and empathetic demeanor, it is my goal to create a comforting, warm and rejuvenating atmosphere for all those who seek my expertise.
-                                            <br/><br/>
-                                            I have a beautiful and lush studio in the heart of historic Carytown in Richmond, Virginia, where I provide massage therapy in a calming and inclusive atmosphere. A prior appointment is required with a deposit to confirm my availability.
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
+                                <div>
+                                    <Card className='cclr2'>
+                                        <Card.Body>
+                                            <Card.Img className='brdr cardwi' variant="top" src="https://i.postimg.cc/0Nfn96kB/Annelise2.jpg" alt="Annelise" />
+                                        </Card.Body>
+                                    </Card>
+                                </div>
+
                             </Row>
                         </Container>
                     </div>
                     <br />
                     <div className='col-12 col-md-6'>
-                        <Card className='cclr2'>
+                        <Card className='cclr3 col-12'>
                             <Card.Body>
-                                <Card.Img className='brdr cardwi' variant="top" src="https://i.postimg.cc/0Nfn96kB/Annelise2.jpg" alt="Annelise" />
+                                <Card.Text>
+                                    Instagram: <a href='https://www.instagram.com/resetmassageofrichmondllc/'>@resetmassageofrichmondllc</a>
+                                    <br /><br />
+                                    My name is Annelise Fa Non and I am a dedicated and knowledgeable massage therapist with over ten years of experience. I obtained my certification from Fortis College in Richmond, Virginia in 2014 and my license through the board of nursing the same year, since then I have become a highly requested practitioner in Richmond and surrounding areas. I specialize in a range of therapeutic massage techniques including Swedish, deep tissue, lymphatic drainage, trigger point, hot stone therapy, cupping, sports massage, energy techniques, myofascial release, CBD treatment, assisted stretching, acupressure, and aromatherapy.
+                                    <br /><br />
+                                    My purpose in this field is to provide customizable care to reset each client, personalizing my treatments to address specific concerns to promote healing and relaxation. With my knowledge of anatomy and empathetic demeanor, it is my goal to create a comforting, warm and rejuvenating atmosphere for all those who seek my expertise.
+                                    <br /><br />
+                                    I have a beautiful and lush studio in the heart of historic Carytown in Richmond, Virginia, where I provide massage therapy in a calming and inclusive atmosphere. A prior appointment is required with a deposit to confirm my availability.
+                                </Card.Text>
                             </Card.Body>
                         </Card>
                     </div>
