@@ -5,10 +5,10 @@ function Home() {
     document.body.style = 'background: #d8d6ca';
     return (
         <div>
-          <Navbar className="nav-color" expand="lg">
+          <Navbar className="nav-color" expand="xl">
           <Container>
             <Navbar.Brand href="/">
-              <img className="navImg" src="Images/QualityMassage.png"/>
+              <img className="navImg" src="https://i.postimg.cc/x8xTQ3h1/Quality-Massage.png"/>
               <h1 className="homeHead">Quality Massage</h1>
               </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -18,6 +18,7 @@ function Home() {
                 <Link className="nav-link" to="/schedule">Schedule Appointment</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/location">Location</Link>
+                <Link className="nav-link" to="/gallery">Gallery</Link>
               </Nav>
               <NavDropdown title="Massage Types" id="basic-nav-dropdown" className="dd">
               <Link className="ddLink" to="/swedishmassage">

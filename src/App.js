@@ -14,6 +14,7 @@ import Msg7 from "./Msg7";
 import Msg8 from "./Msg8";
 import Msg9 from "./Msg9";
 import Msg10 from "./Msg10";
+import Gallery from "./Gallery";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/aprenatalmassage" element={<Msg9/>}/> 
           <Route path="/lymphaticdrainagemassage" element={<Msg10/>}/>
           <Route path="/location" element={<Location/>}/>
+          <Route path="/gallery" element={<Gallery/>}/>
           <Route path="*" element={<h1>Component Not Found</h1>}/>
         </Route>
         <Route path="*" element={<p>Page Not Found</p>}/>

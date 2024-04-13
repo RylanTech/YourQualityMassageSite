@@ -5,9 +5,9 @@ function about() {
     return (
         <div>
         <Helmet>
-            <title>Quality Massage About Page</title>
-            <meta name="title" content="Quality Massage"/>
-            <meta name="description" content="The about page for Quality Massage where you can find out more about us"/>
+            <title>Reset Massage About Page</title>
+            <meta name="title" content="Reset Massage"/>
+            <meta name="description" content="The about page for Reset Massage where you can find out more about us"/>
             <meta name="keywords" content="Massage, relax, chill, break, comfort, Richmond VA, local business, calm, time off, About"/>
             <meta name="robots" content="index, follow"/>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -16,7 +16,7 @@ function about() {
         </Helmet>
         <Container>
             <Row>
-                <img className="col-12 col-lg-6" src="Images/Annelise1.png" alt="Quality Massage"></img>
+                <img className="col-12 col-lg-6" src="https://i.postimg.cc/mhfCYRZ9/Annelise1.jpg" alt="Quality Massage"></img>
                 <Card className="col-lg-6">
                     <Card.Body>
                         <Card.Title>About the owner</Card.Title>

@@ -1,8 +1,19 @@
 import { Card, Container, Row } from "react-bootstrap"
+import { Helmet } from "react-helmet-async"
 
 function Location() {
     return (
         <div>
+            <Helmet>
+                <title>Reset Massage of Richmond Schedule an Appointment</title>
+                <meta name="title" content="Reset Massage"/>
+                <meta name="description" content="The Schedule Appointment page for Reset Massage where you can find out how to get in touch!"/>
+                <meta name="keywords" content="Massage, relax, chill, break, comfort, Richmond VA, local business, calm, time off, Contact us"/>
+                <meta name="robots" content="index, follow"/>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+                <meta name="language" content="English"/>
+                <link rel='canonical' href='/location'/>
+            </Helmet>
             <Container>
                 <Row>
                     <div className="col-12 col-lg-3">
