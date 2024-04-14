@@ -23,13 +23,13 @@ function Location() {
                                     Address
                                 </Card.Title>
                                 <Card.Text>
-                                    3026 W Cary St, Richmond, VA 23221 Suite A
+                                    3123 W Cary St, Suite 2, Richmond, VA 23221
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className="col-12 col-lg-8 mapB">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d790.7718253499016!2d-77.48096326588848!3d37.55300689930238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b113e533d98723%3A0x321f4d722af67fca!2s3026%20W%20Cary%20St%2C%20Richmond%2C%20VA%2023221!5e0!3m2!1sen!2sus!4v1672332497726!5m2!1sen!2sus" 
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.0801147881566!2d-77.48396412355206!3d37.55317622489309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b113e55420593f%3A0x924bb82e619f5542!2s3123%20W%20Cary%20St%2C%20Richmond%2C%20VA%2023221!5e0!3m2!1sen!2sus!4v1713056112743!5m2!1sen!2sus" 
                         className="map" width="100%" height="700px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </Row>

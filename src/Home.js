@@ -9,7 +9,7 @@ function Home() {
           <Container>
             <Navbar.Brand href="/">
               <img className="navImg" src="https://i.postimg.cc/x8xTQ3h1/Quality-Massage.png"/>
-              <h1 className="homeHead">Quality Massage</h1>
+              <h1 className="homeHead">Reset Massage</h1>
               </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

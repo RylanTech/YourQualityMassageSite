@@ -71,7 +71,7 @@ function HomePage() {
                                 <div>
                                     <Card className='cclr2'>
                                         <Card.Body>
-                                            <Card.Img className='brdr cardwi' variant="top" src="https://i.postimg.cc/0Nfn96kB/Annelise2.jpg" alt="Annelise" />
+                                            <Card.Img className='brdr cardwi' variant="top" src="https://i.postimg.cc/7LtHrsRP/IMG-1437.jpg" alt="Annelise" />
                                         </Card.Body>
                                     </Card>
                                 </div>
