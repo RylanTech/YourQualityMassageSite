@@ -164,6 +164,12 @@ th {
   background-color: #53533c;
   border-radius: 30px;
 }
+.rwlink {
+  color: white!important;
+}
+.rwlink:hover {
+  color: #9ba881!important;
+}
 @media (min-width: 500px) {
   .slide {
     height: 300px;

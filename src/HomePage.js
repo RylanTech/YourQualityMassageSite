@@ -101,7 +101,7 @@ function HomePage() {
                 <Container>
                     <Row>
                         <div className='col-12 col-md-6 col-lg-8 col-xxl-9'>
-                            Website made by Rylan Workman
+                            Website made by <a className='rwlink' target='_blank' href='https://rylanworkman.com'>Rylan Workman</a>
                         </div>
                         <div className='col-12 col-md-6 col-lg-4 col-xxl-3'>
                             Email: QualityMassageLLC@gmail.com<br />
