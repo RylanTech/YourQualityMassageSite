@@ -135,7 +135,7 @@ th {
   display: inline;
 }
 .navImg {
-  width: 70px;
+  width: 80px;
   display: inline;
   border-radius: 20px;
   margin: 0px 15px 0px 0px;
@@ -170,14 +170,23 @@ th {
 .rwlink:hover {
   color: #9ba881!important;
 }
+
+.aboutImg {
+  padding-bottom: 20px;
+  border-radius: 50px;
+}
+
 @media (min-width: 500px) {
   .slide {
     height: 300px;
 }
 }
 @media (min-width: 768px) {
+  .navImg {
+    width: 120px;
+  }
   .slide {
-    height: 350px;
+    height: 400px;
   }
   .slidetxt {
     visibility: visible;
@@ -187,6 +196,9 @@ th {
   }
 }
 @media (min-width: 992px) {
+  .navImg {
+    width: 160px;
+  }
   .day {
     width: 140px;
   }
@@ -207,6 +219,9 @@ th {
   }
 }
 @media (min-width: 1400px) {
+  .slide {
+    height: 750px;
+  }
   .dd {
     margin-right: 50px!important;
   }

@@ -8,7 +8,7 @@ function Home() {
           <Navbar className="nav-color" expand="xl">
           <Container>
             <Navbar.Brand href="/">
-              <img className="navImg" src="https://i.postimg.cc/x8xTQ3h1/Quality-Massage.png"/>
+              <img className="navImg" src="./Images/logo.jpg"/>
               <h1 className="homeHead">Reset Massage</h1>
               </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

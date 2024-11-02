@@ -17,44 +17,39 @@ function Gallery() {
             <Container>
                 <Row>
                     <div className="col-6">
-                        <img width="100%" src="https://i.postimg.cc/nhzkkVn8/IMG-2141.jpg"
+                        <img width="100%" src="./Images/AnnelisesPhotos/Compressed/IMGL2103-min.JPG"
                         alt="Reset Meassage gallery 1" />
                         <br /><br />
-                        <img width="100%" src="https://i.postimg.cc/8CGLY1SP/IMG-2152.jpg" 
+                        <img width="100%" src="./Images/AnnelisesPhotos/Compressed/IMG-2131-min.jpg"
                         alt="Reset Meassage gallery 2"/>
                         <br /><br />
-                        <img width="100%" src="https://i.postimg.cc/bJCbdk2s/IMG-2183.jpg" 
+                        <img width="100%" src="./Images/AnnelisesPhotos/Compressed/IMGL2344-min.JPG"
                         alt="Reset Meassage gallery 3"/>
                         <br /><br />
-                        <img width="100%" src="https://i.postimg.cc/PNGC84fr/IMG-1236.jpg" 
+                        <img width="100%" src="./Images/AnnelisesPhotos/Compressed/IMGL2371-min.JPG"
                         alt="Reset Meassage gallery 4"/>
                         <br /><br />
-                        <img width="100%" src="https://i.postimg.cc/XNtL86pX/IMG-2203.webp" 
+                        <img width="100%" src="./Images/AnnelisesPhotos/Compressed/IMG-2182-min.jpg"
                         alt="Reset Meassage gallery 5"/>
-                        <img width="100%" src="https://i.postimg.cc/sD3KM98g/IMG-1166.jpg" 
+                        <br /><br />
+                        <img width="100%" src="./Images/AnnelisesPhotos/Compressed/IMGL2218-min.JPG"
                         alt="Reset Meassage gallery 6"/>
                         <br /><br />
                     </div>
                     <div className="col-6">
-                        <img width="100%" src="https://i.postimg.cc/8cpWzw58/IMG-2182.jpg" 
+                        <img width="100%" src="./Images/AnnelisesPhotos/Compressed/IMGL2259-min.JPG"
                         alt="Reset Meassage gallery 7"/>
                         <br /><br />
-                        <img width="100%" src="https://i.postimg.cc/0jyMsQWP/IMG-2131.jpg" 
-                        alt="Reset Meassage gallery 8"/>
-                        <br /><br />
-                        <img width="100%" src="https://i.postimg.cc/vTCQNHCP/IMG-2179.jpg" 
+                        <img width="100%" src="./Images/AnnelisesPhotos/Compressed/IMG-2179-min.jpg" 
                         alt="Reset Meassage gallery 9"/>
                         <br /><br />
-                        <img width="100%" src="https://i.postimg.cc/MH6PJ7JH/IMG-1276.jpg" 
+                        <img width="100%" src="./Images/AnnelisesPhotos/Compressed/IMG-1276-min.jpg" 
                         alt="Reset Meassage gallery 10"/>
                         <br /><br />
-                        <img width="100%" src="https://i.postimg.cc/25d7j1wZ/IMG-2171.jpg" 
-                        alt="Reset Meassage gallery 11"/>
-                        <br /><br />
-                        <img width="100%" src="https://i.postimg.cc/Hsjz0spq/IMG-2147.jpg" 
+                        <img width="100%" src="./Images/AnnelisesPhotos/Compressed/IMGL2438-min.JPG" 
                         alt="Reset Meassage gallery 12"/>
                         <br /><br />
-                        <img width="100%" src="https://i.postimg.cc/NFF6xpw6/IMG-2165.jpg" 
+                        <img width="100%" src="./Images/AnnelisesPhotos/Compressed/IMGL2344-2-min.JPG" 
                         alt="Reset Meassage gallery 13"/>
                         
                     </div>

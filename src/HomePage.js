@@ -23,18 +23,25 @@ function HomePage() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100 slide brdr"
-                            src="https://i.postimg.cc/rmpYRGz4/photo1.jpg"
+                            src="./Images/AnnelisesPhotos/Graphics/psa.png"
                             alt="Reset Massage relax"
                         />
                         <Carousel.Caption>
-                            <p className='slidetxt'>Get your massage for an affordable price!</p>
+                            <p className='slidetxt'>Feeling stressed? We can help with that!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100 slide brdr"
-                            src="https://i.postimg.cc/QdSh5b0N/psa2.png"
+                            src="./Images/AnnelisesPhotos/Graphics/slide.JPG"
                             alt="Reset Massage Start at $125"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100 slide brdr"
+                            src="./Images/AnnelisesPhotos/Graphics/photo1.jpg"
+                            alt="Welcome to Reset Massage!"
                         />
                         <Carousel.Caption>
                             <p className='slidetxt'>Book your appointment today!</p>
@@ -43,12 +50,13 @@ function HomePage() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100 slide brdr"
-                            src="https://i.postimg.cc/DzRb1nwc/psa.png"
+                            src="./Images/AnnelisesPhotos/Graphics/psa2.png"
                             alt="Welcome to Reset Massage!"
                         />
                         <Carousel.Caption>
-                            <p className='slidetxt'>Feeling stressed? We can help with that!</p>
+                            <p className='slidetxt'>Get your massage for an affordable price!</p>
                         </Carousel.Caption>
+
                     </Carousel.Item>
                 </Carousel>
                 <br />
@@ -56,7 +64,7 @@ function HomePage() {
                     <br />
                     <div className='col-12 col-md-6'>
                         <Container>
-                            <Row>
+                            {/* <Row>
                                 <Card className='cclr1'>
                                     <Card.Body>
                                         <Card.Title>Need to relax?</Card.Title>
@@ -66,16 +74,15 @@ function HomePage() {
                                         <Link to="/schedule" className="btn btn-light">Schedule your massage!</Link>
                                     </Card.Body>
                                 </Card>
-                            </Row>
+                            </Row> */}
                             <Row>
                                 <div>
                                     <Card className='cclr2'>
                                         <Card.Body>
-                                            <Card.Img className='brdr cardwi' variant="top" src="https://i.postimg.cc/7LtHrsRP/IMG-1437.jpg" alt="Annelise" />
+                                            <Card.Img className='brdr cardwi' variant="top" src="./Images/AnnelisesPhotos/Compressed/IMGL2103-min.JPG" alt="Annelise" />
                                         </Card.Body>
                                     </Card>
                                 </div>
-
                             </Row>
                         </Container>
                     </div>
@@ -86,12 +93,42 @@ function HomePage() {
                                 <Card.Text>
                                     Instagram: <a href='https://www.instagram.com/resetmassageofrichmondllc/'>@resetmassageofrichmondllc</a>
                                     <br /><br />
-                                    My name is Annelise Fa Non and I am a dedicated and knowledgeable massage therapist with over ten years of experience. I obtained my certification from Fortis College in Richmond, Virginia in 2014 and my license through the board of nursing the same year, since then I have become a highly requested practitioner in Richmond and surrounding areas. I specialize in a range of therapeutic massage techniques including Swedish, deep tissue, lymphatic drainage, trigger point, hot stone therapy, cupping, sports massage, energy techniques, myofascial release, CBD treatment, assisted stretching, acupressure, and aromatherapy.
-                                    <br /><br />
-                                    My purpose in this field is to provide customizable care to reset each client, personalizing my treatments to address specific concerns to promote healing and relaxation. With my knowledge of anatomy and empathetic demeanor, it is my goal to create a comforting, warm and rejuvenating atmosphere for all those who seek my expertise.
-                                    <br /><br />
-                                    I have a beautiful and lush studio in the heart of historic Carytown in Richmond, Virginia, where I provide massage therapy in a calming and inclusive atmosphere. A prior appointment is required with a deposit to confirm my availability.
-                                </Card.Text>
+                                    <b>I'm Annelise Fa Non</b>, a dedicated and knowledgeable massage therapist with over ten years of experience. I obtained my certification from Fortis College in Richmond, Virginia, in 2014 and received my license through the Board of Nursing in the same year. Since then, I have become a highly requested practitioner in Richmond and the surrounding areas.
+                                    <br/><br/>
+                                    I specialize in a variety of therapeutic massage techniques, including:
+                                    <br/>
+                                    - Swedish
+                                    <br/>
+                                    - Deep Tissue
+                                    <br/>
+                                    - Lymphatic Drainage
+                                    <br/>
+                                    - Trigger Point Therapy
+                                    <br/>
+                                    - Hot Stone Therapy
+                                    <br/>
+                                    - Cupping
+                                    <br/>
+                                    - Sports Massage
+                                    <br/>
+                                    - Energy Techniques
+                                    <br/>
+                                    - Myofascial Release
+                                    <br/>
+                                    - CBD Treatment
+                                    <br/>
+                                    - Assisted Stretching
+                                    <br/>
+                                    - Acupressure
+                                    <br/>
+                                    - Aromatherapy
+                                    <br/><br/>
+
+                                    My purpose in this field is to provide customizable care that resets each client. I personalize my treatments to address specific concerns, promoting healing and relaxation. With my knowledge of anatomy and an empathetic demeanor, I strive to create a comforting and rejuvenating atmosphere for everyone seeking my expertise.
+                                    <br/><br/>
+                                    I operate from a beautiful and lush studio located in the heart of historic Carytown, Richmond, Virginia. Here, I offer massage therapy in a calming and inclusive environment. Please note that prior appointments are required, along with a deposit to confirm your booking.
+
+                                    =      </Card.Text>
                             </Card.Body>
                         </Card>
                     </div>
@@ -104,7 +141,7 @@ function HomePage() {
                             Website made by <a className='rwlink' target='_blank' href='https://rylanworkman.com'>Rylan Workman</a>
                         </div>
                         <div className='col-12 col-md-6 col-lg-4 col-xxl-3'>
-                            Email: QualityMassageLLC@gmail.com<br />
+                            Email: Resetmassageofrichmond@gmail.com<br />
                             or call {`(804)`}-972-7672
                         </div>
                     </Row>
